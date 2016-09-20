@@ -1,0 +1,9 @@
+Package: PCS
+Title: Parallel Constraint Satisfaction Networks in R
+Version: 0.1.0
+Authors@R: person("Felix", "Henninger", email = "mailbox@felixhenninger.com", role = c("aut", "cre"))
+Description: Parallel Constraint Satisfaction (PCS) models are an increasingly common class of models in Psychology, with applications to reading and word recognition (McClelland & Rumelhart, 1981), judgment and decision making (Glöckner & Betsch, 2008; Glöckner, Hilbig, & Jekel, 2014), and several other fields (e.g. Read, Vanman, & Miller, 1997). In each of these fields, they provide a quantitative model of psychological phenomena, with precise predictions regarding choice probabilities, decision times, and often the degree of confidence. This package provides the necessary functions to create and simulate basic Parallel Constraint Satisfaction networks within R.
+Depends: R (>= 3.3.1)
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
