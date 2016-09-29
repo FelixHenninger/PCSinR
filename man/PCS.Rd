@@ -4,7 +4,7 @@
 \name{PCS}
 \alias{PCS}
 \alias{PCS-package}
-\title{Parallel Constraint Satisfaction networks in R}
+\title{PCS: Parallel Constraint Satisfaction networks in R}
 \description{
 The PCS package contains all necessary functions for building and simulation
 Parallel Constraint Satisfaction (PCS) network models within R.
@@ -107,9 +107,9 @@ judgments and decisions (Glöckner & Betsch, 2008; Glöckner, Hilbig, & Jekel,
   Glöckner and Betsch (2008), as well as several variants commonly used in
   the literature so that existing findings may be replicated.
 
-  \link{pcs} is the central function provided by the package. It creates, and
-  runs, a model of a PCS network given a connection matrix and the necessary
-  parameters.
+  \code{\link{PCS_run}} is the central function provided by the package. It
+  creates, and runs, a model of a PCS network given a connection matrix and
+  the necessary parameters.
 
   Please see the function-specific documentation for additional information
 }

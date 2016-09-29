@@ -147,11 +147,11 @@ PCS_run <- function(interconnection_matrix, initial_state, resting_levels, reset
 
 #' Simulate the run of a PCS model based on only the interconnection matrix
 #'
-#' \code{PCS_run_from_interconnections} simulates a PCS network given \emph{only}
-#' the pre-specified interconnection matrix and convergence criteria, substituting
-#' default values from the literature for all other parameters. Thereby, it
-#' provides a convenient shorthand for the \link{PCS_run} function that covers
-#' the vast majority of applications.
+#' \code{PCS_run_from_interconnections} simulates a PCS network given
+#' \emph{only} the pre-specified interconnection matrix and convergence
+#' criteria, substituting default values from the literature for all other
+#' parameters. Thereby, it provides a convenient shorthand for the
+#' \code{\link{PCS_run}} function that covers the vast majority of applications.
 #'
 #' @inheritParams PCS_run
 #'
