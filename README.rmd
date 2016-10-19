@@ -13,6 +13,7 @@ knitr::opts_chunk$set(
   comment = "#>",
   fig.path = "README-"
 )
+options(width = 100)
 ```
 
 # PCSinR
@@ -26,6 +27,41 @@ PCS models are an increasingly used framework throughout psychology: They provid
 * The current stable version is available via CRAN, and can be installed by running `install.packages("PCSinR")`.
 * You can install the latest development version directly from GitHub with the `devtools` package.
   To do so, please run `devtools::install_github("felixhenninger/PCSinR@master")`.
+
+## Usage
+
+The functions in this package simulate a PCS network, given an interconnection matrix. Methods for creating such a matrix from the most common models are forthcoming.
+
+Once a connection matrix has been specified, the model can be simulated easily using the most common parameter set.
+
+```{r}
+require(PCSinR)
+
+interconnections <- matrix(
+  c( 0.0000,  0.1015,  0.0470,  0.0126,  0.0034,  0.0000,  0.0000,
+     0.1015,  0.0000,  0.0000,  0.0000,  0.0000,  0.0100, -0.0100,
+     0.0470,  0.0000,  0.0000,  0.0000,  0.0000,  0.0100, -0.0100,
+     0.0126,  0.0000,  0.0000,  0.0000,  0.0000,  0.0100, -0.0100,
+     0.0034,  0.0000,  0.0000,  0.0000,  0.0000, -0.0100,  0.0100,
+     0.0000,  0.0100,  0.0100,  0.0100, -0.0100,  0.0000, -0.2000,
+     0.0000, -0.0100, -0.0100, -0.0100,  0.0100, -0.2000,  0.0000 ),
+  nrow=7
+)
+
+result <- PCS_run_from_interconnections(interconnections)
+```
+
+A common simulation result concerns the number of iterations needed until convergence is reached.
+
+```{r}
+result$convergence
+```
+
+The output also contains a log of the model states across all iterations. Here, we examine just the final state.
+
+```{r}
+result$iterations[nrow(result$iterations),]
+```
 
 ## General Information
 
