@@ -135,6 +135,6 @@
 #'   Psychology Review, 6(4), 283–294.
 #'
 #' @docType package
-#' @name PCS
+#' @name PCSinR
 NULL
 #> NULL

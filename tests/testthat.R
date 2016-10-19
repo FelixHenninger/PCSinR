@@ -1,4 +1,4 @@
 library(testthat)
-library(PCS)
+library(PCSinR)
 
-test_check("PCS")
+test_check("PCSinR")
