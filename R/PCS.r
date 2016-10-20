@@ -108,31 +108,33 @@
 #'   Glöckner, A., & Betsch, T. (2008). Modeling option and strategy choices
 #'   with connectionist networks: Towards an integrative model of automatic and
 #'   deliberate decision making. Judgment and Decision Making, 3(3), 215–228.
+#'   \url{http://journal.sjdm.org/bn3.pdf}
 #'
 #'   Glöckner, A., Betsch, T., & Schindler, N. (2010). Coherence shifts in
 #'   probabilistic inference tasks. Journal of Behavioral Decision Making,
-#'   23(5), 439–462. doi:10.1002/bdm.668
+#'   23(5), 439–462. \doi{10.1002/bdm.668}
 #'
 #'   Glöckner, A., Hilbig, B. E., & Jekel, M. (2014). What is adaptive about
 #'   adaptive decision making? A parallel constraint satisfaction account.
-#'   Cognition, 133(3), 641–666. doi:10.1016/j.cognition.2014.08.017
+#'   Cognition, 133(3), 641–666. \doi{10.1016/j.cognition.2014.08.017}
 #'
 #'   Holyoak, K. J., & Simon, D. (1999). Bidirectional reasoning in decision
 #'   making by constraint satisfaction. Journal of Experimental Psychology:
-#'   General, 128(1), 3–31.
+#'   General, 128(1), 3–31. \doi{10.1037/0096-3445.128.1.3}
 #'
 #'   McClelland, J. L., & Rumelhart, D. E. (1981). An interactive activation
 #'   model of context effects in letter perception: I. An account of basic
 #'   findings. Psychological Review, 88(5), 375–407.
+#'   \doi{10.1037/0033-295X.88.5.375}
 #'
 #'   Rumelhart, D. E., & McClelland, J. L. (1982). An interactive activation
 #'   model of context effects in letter perception: II. The contextual
 #'   enhancement effect and some tests and extensions of the model.
-#'   Psychological Review, 89(1), 60–94.
+#'   Psychological Review, 89(1), 60–94. \doi{10.1037/0033-295X.89.1.60}
 #'
 #'   Simon, D., & Holyoak, K. (2002). Structural dynamics of cognition: From
 #'   consistency theories to constraint satisfaction. Personality and Social
-#'   Psychology Review, 6(4), 283–294.
+#'   Psychology Review, 6(4), 283–294. \doi{10.1207/S15327957PSPR0604_03}
 #'
 #' @docType package
 #' @name PCSinR
