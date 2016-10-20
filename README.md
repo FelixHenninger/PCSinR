@@ -4,6 +4,8 @@ PCSinR
 
 **The PCSinR package contains all necessary functions for building and simulation Parallel Constraint Satisfaction (PCS) network models within R.**
 
+[![DOI](https://zenodo.org/badge/61937411.svg)](https://zenodo.org/badge/latestdoi/61937411)
+
 PCS models are an increasingly used framework throughout psychology: They provide quantitative predictions in a variety of paradigms, ranging from word and letter recognition, for which they were originally developed (McClelland & Rumelhart, 1981; Rumelhart & McClelland, 1982), to complex judgments and decisions (Glöckner & Betsch, 2008; Glöckner, Hilbig, & Jekel, 2014), and many other applications besides.
 
 Installation
