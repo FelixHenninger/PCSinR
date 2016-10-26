@@ -1,7 +1,10 @@
 Package: PCSinR
 Title: Parallel Constraint Satisfaction Networks in R
 Version: 0.1.0
-Authors@R: person("Felix", "Henninger", email = "mailbox@felixhenninger.com", role = c("aut", "cre"))
+Authors@R: as.person(c(
+  "Felix Henninger <mailbox@felixhenninger.com> [aut, cre]",
+  "Daniel W. Heck <dheck@mail.uni-mannheim.de> [aut]"
+  ))
 URL: https://github.com/felixhenninger/PCSinR
 Description: Parallel Constraint Satisfaction (PCS) models are an increasingly
     common class of models in Psychology, with applications to reading and word
