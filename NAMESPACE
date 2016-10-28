@@ -3,3 +3,6 @@
 export(PCS_convergence_McCandR)
 export(PCS_run)
 export(PCS_run_from_interconnections)
+export(timesTwo)
+importFrom(Rcpp,sourceCpp)
+useDynLib(PCSinR)
