@@ -58,6 +58,6 @@ result$iterations[nrow(result$iterations),]
 General Information
 -------------------
 
-The `PCSinR` package is developed and maintained by Felix Henninger. It is published under the GNU General Public License (version 3 or later). The [NEWS file](NEWS.md) documents the most recent changes.
+The `PCSinR` package is developed and maintained by [Felix Henninger](http://felixhenninger.com) and [Daniel W. Heck](https://dwheck.de/). It is published under the GNU General Public License (version 3 or later). The [NEWS file](NEWS.md) documents the most recent changes.
 
 This work was supported by the University of Mannheim’s Graduate School of Economic and Social Sciences, which is funded by the German Research Foundation.
